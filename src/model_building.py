@@ -4,7 +4,7 @@ import pickle
 
 from sklearn.ensemble import GradientBoostingClassifier
 
-# fetch the data from data/processed
+#  fetch the data from data/processed
 train_data = pd.read_csv('./data/features/train_bow.csv')
 
 X_train = train_data.iloc[:,0:-1].values

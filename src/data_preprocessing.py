@@ -13,7 +13,7 @@ from nltk.stem import SnowballStemmer, WordNetLemmatizer
 train_data = pd.read_csv('./data/raw/train.csv')
 test_data = pd.read_csv('./data/raw/test.csv')
 
-# transform the data
+#  transform the data
 nltk.download('wordnet')
 nltk.download('stopwords')
 

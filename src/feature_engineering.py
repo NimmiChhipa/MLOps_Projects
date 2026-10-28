@@ -12,7 +12,7 @@ test_data = pd.read_csv('./data/processed/test_processed.csv')
 train_data.fillna('',inplace=True)
 test_data.fillna('',inplace=True)
 
-# apply BoW
+#  apply BoW
 X_train = train_data['content'].values
 y_train = train_data['sentiment'].values
 

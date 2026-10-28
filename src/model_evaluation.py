@@ -16,7 +16,7 @@ y_test = test_data.iloc[:,-1].values
 y_pred = clf.predict(X_test)
 y_pred_proba = clf.predict_proba(X_test)[:, 1]
 
-# Calculate evaluation metrics
+#  Calculate evaluation metrics
 accuracy = accuracy_score(y_test, y_pred)
 precision = precision_score(y_test, y_pred)
 recall = recall_score(y_test, y_pred)

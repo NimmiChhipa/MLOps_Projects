@@ -6,7 +6,7 @@ import yaml
 
 import logging
 
-# logging configure
+#  logging configure
 
 logger = logging.getLogger('data_ingestion')
 logger.setLevel('DEBUG')

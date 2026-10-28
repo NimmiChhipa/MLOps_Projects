@@ -1,1 +1,1 @@
-MLOps projects
+MLOps Project
